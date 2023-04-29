@@ -59,7 +59,9 @@ public class DiGraph {
     }
 
     public static void main(String[] args) {
-        DiGraph g = new DiGraph(6);
+        DiGraph g = new DiGraph(6); //we'll have 6 vertices/nodes
+
+        //the adjacency matrix ...
         g.W[0][0] = 0;
         g.W[0][1] = 30;
         g.W[0][2] = Double.POSITIVE_INFINITY;
